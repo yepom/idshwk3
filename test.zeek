@@ -1,4 +1,4 @@
-global aget_table: table[addr] of set[string] = table();
+global agent_table: table[addr] of set[string] = table();
 	
 event http_header(c: connection, is_orig: bool, name: string, value: string) 
 {
